@@ -1,0 +1,16 @@
+DirectoryIndex index.php
+
+Options -Indexes
+
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    RewriteRule ^app/ - [F,L]
+    RewriteRule ^config/ - [F,L]
+
+</IfModule>

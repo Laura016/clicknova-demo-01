@@ -1,0 +1,12 @@
+# Configuración local
+config/database-local.php
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
