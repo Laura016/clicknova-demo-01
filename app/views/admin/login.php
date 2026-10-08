@@ -19,7 +19,7 @@ unset($_SESSION['login_error']);
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Acceso administrativo | CalzaSport</title>
+    <title>Acceso administrativo | AUREN</title>
 
     <link rel="stylesheet" href="assets/css/admin.css">
 
@@ -38,7 +38,7 @@ unset($_SESSION['login_error']);
             <div class="login-brand">
 
                 <div class="login-logo">
-                    <img src="assets/img/logo-oficial.png" alt="CalzaSport">
+                    <img src="assets/img/logo-oficial.png" alt="AUREN">
                 </div>
 
                 <p>
@@ -155,7 +155,7 @@ unset($_SESSION['login_error']);
             <div class="login-footer">
 
                 <span>
-                    CalzaSport
+                    AUREN
                 </span>
 
                 <span class="login-footer-separator">

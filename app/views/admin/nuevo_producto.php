@@ -103,7 +103,7 @@ require_once __DIR__ . "/../layouts/admin_sidebar.php";
             </h1>
 
             <p>
-                Agrega un nuevo producto al catálogo de CalzaSport.
+                Agrega un nuevo producto al catálogo.
             </p>
 
         </div>
@@ -222,7 +222,7 @@ require_once __DIR__ . "/../layouts/admin_sidebar.php";
                         <span class="required">*</span>
                     </label>
 
-                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Nike Air Max 270" required>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Camisa Oversize Essential" required>
 
                 </div>
 
@@ -236,7 +236,7 @@ require_once __DIR__ . "/../layouts/admin_sidebar.php";
                         <span class="required">*</span>
                     </label>
 
-                    <input type="text" id="referencia" name="referencia" placeholder="Ej. NK270-WH" required>
+                    <input type="text" id="referencia" name="referencia" placeholder="Ej. AR-001" required>
 
                 </div>
 
@@ -249,7 +249,7 @@ require_once __DIR__ . "/../layouts/admin_sidebar.php";
                         Marca
                     </label>
 
-                    <input type="text" id="marca" name="marca" placeholder="Ej. Nike">
+                    <input type="text" id="marca" name="marca" placeholder="Ej. AUREN">
 
                 </div>
 
@@ -424,7 +424,7 @@ require_once __DIR__ . "/../layouts/admin_sidebar.php";
                     </label>
 
                     <textarea id="especificaciones" name="especificaciones" rows="5"
-                        placeholder="Ej. Material, tipo de suela, características, composición..."></textarea>
+                        placeholder="Ej. Material, composición, corte, ajuste, cuidados..."></textarea>
 
                 </div>
 

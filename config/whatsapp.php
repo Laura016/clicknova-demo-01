@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| WhatsApp oficial de CalzaSport
+| WhatsApp oficial de AUREN
 |--------------------------------------------------------------------------
 |
 | Escribir solamente números.
@@ -13,4 +13,4 @@
 |
 */
 
-$whatsappNumero = '573242994225';
+$whatsappNumero = '573118113112';

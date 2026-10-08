@@ -410,7 +410,7 @@ require_once __DIR__ . "/../layouts/admin_sidebar.php";
                     </label>
 
                     <textarea id="especificaciones" name="especificaciones" rows="5"
-                        placeholder="Material, características, tipo de suela, etc."><?= htmlspecialchars(
+                        placeholder="Material, composición, corte, ajuste, cuidados, etc."><?= htmlspecialchars(
                             $producto['especificaciones'] ?? ''
                         ) ?></textarea>
 

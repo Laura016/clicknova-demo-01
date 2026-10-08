@@ -47,7 +47,7 @@ require_once __DIR__ . "/../layouts/admin_sidebar.php";
             </h1>
 
             <p>
-                Administra los productos de tu catálogo CalzaSport
+                Administra los productos de tu catálogo de ropa
             </p>
 
         </div>
@@ -339,14 +339,6 @@ require_once __DIR__ . "/../layouts/admin_sidebar.php";
                                     <?php endif; ?>
 
                                 </td>
-
-
-
-                                <!-- =================================
-                                     DESTACADO
-                                ================================== -->
-
-
 
                                 <!-- =================================
                                      ACCIONES

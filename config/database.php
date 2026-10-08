@@ -1,40 +1,16 @@
 <?php
 
-class Database
-{
-    private $host = "sql206.infinityfree.com";
-    private $db = "if0_42944935_catalogo_calzasport";
-    private $user = "if0_42944935";
-    private $password = "Calzasport2026";
+$hostActual = $_SERVER['HTTP_HOST'] ?? '';
 
-    public function conectar()
-    {
-        try {
+// Detectar si el proyecto se ejecuta en Laragon
+$esLocal = (
+    $hostActual === 'localhost' ||
+    strpos($hostActual, 'localhost:') === 0 ||
+    strpos($hostActual, '127.0.0.1') === 0
+);
 
-            $conexion = new PDO(
-                "mysql:host={$this->host};dbname={$this->db};charset=utf8mb4",
-                $this->user,
-                $this->password
-            );
-
-            $conexion->setAttribute(
-                PDO::ATTR_ERRMODE,
-                PDO::ERRMODE_EXCEPTION
-            );
-
-            $conexion->setAttribute(
-                PDO::ATTR_DEFAULT_FETCH_MODE,
-                PDO::FETCH_ASSOC
-            );
-
-            return $conexion;
-
-        } catch (PDOException $e) {
-
-            die(
-                "Error de conexión a la base de datos: "
-                . $e->getMessage()
-            );
-        }
-    }
+if ($esLocal) {
+    require_once __DIR__ . '/database-local.php';
+} else {
+    require_once __DIR__ . '/database-production.php';
 }

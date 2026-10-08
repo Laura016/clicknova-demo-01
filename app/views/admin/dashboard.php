@@ -15,7 +15,7 @@ require_once __DIR__ . "/../layouts/admin_sidebar.php";
 
             <h1>Dashboard</h1>
 
-            <p>Administra tu catálogo CalzaSport</p>
+            <p>Administra el catálogo digital de AUREN</p>
 
         </div>
 
@@ -27,6 +27,11 @@ require_once __DIR__ . "/../layouts/admin_sidebar.php";
             </div>
 
             <div class="admin-user-info">
+                <?php
+                echo '<!-- ADMIN: ';
+                echo htmlspecialchars($_SESSION['admin_nombre'] ?? 'SIN NOMBRE');
+                echo ' -->';
+                ?>
 
                 <strong>
                     <?= htmlspecialchars($_SESSION['admin_nombre']) ?>
@@ -47,7 +52,7 @@ require_once __DIR__ . "/../layouts/admin_sidebar.php";
 
         <div class="dashboard-card">
             <div class="card-icon">
-                <i class="fa-solid fa-shoe-prints"></i>
+                <i class="fa-solid fa-shirt"></i>
             </div>
 
             <div class="card-content">
@@ -85,16 +90,16 @@ require_once __DIR__ . "/../layouts/admin_sidebar.php";
 
             <div>
 
-                <h2>Administración del catálogo</h2>
+                <h2>Gestión de AUREN</h2>
 
                 <p>
-                    Gestiona productos, imágenes y tallas.
+                    Gestiona productos, imágenes y tallas desde un solo lugar.
                 </p>
 
             </div>
 
             <a href="index.php?pagina=nuevo_producto" class="btn btn-primary">
-                + Nuevo producto
+                Nuevo producto
             </a>
 
         </div>

@@ -151,13 +151,13 @@ $urlWhatsAppGeneral =
             <div class="hero-content">
 
                 <span class="hero-label">
-                    Colección AUREN
+                    COLECCIÓN AUREN
                 </span>
 
                 <h1>
-                    Encuentra tu
+                    Viste Tu
                     <span>
-                        próximo par.
+                        Esencia.
                     </span>
                 </h1>
 
@@ -210,12 +210,12 @@ $urlWhatsAppGeneral =
     if ($nombreCategoria === 'hombre') {
 
         $imagenCategoria =
-            'assets/img/categoria-hombre.png';
+            'assets/img/categoria-hombre.jpg';
 
     } elseif ($nombreCategoria === 'mujer') {
 
         $imagenCategoria =
-            'assets/img/categoria-mujer.png';
+            'assets/img/categoria-mujer.jpg';
 
     } else {
 

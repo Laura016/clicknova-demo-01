@@ -811,7 +811,7 @@ if (!empty($whatsappNumero)) {
 
         <p class="footer-text">
 
-            Catálogo oficial CalzaSport
+            Catálogo oficial AUREN
 
         </p>
 
@@ -1286,7 +1286,7 @@ if (!empty($whatsappNumero)) {
                         */
 
                         let mensaje =
-                            'Hola, quiero realizar una compra en CalzaSport.';
+                            'Hola, quiero realizar una compra en AUREN.';
 
                         mensaje += '\n\n';
                         mensaje += '[ICONO_PRODUCTO] *DATOS DEL PRODUCTO*';
@@ -1295,7 +1295,7 @@ if (!empty($whatsappNumero)) {
                         mensaje += '\n';
                         mensaje += 'Referencia: ' + referencia;
                         mensaje += '\n';
-                        mensaje += 'Talla EU: ' + talla;
+                        mensaje += 'Talla: ' + talla;
                         mensaje += '\n';
                         mensaje += 'Cantidad: ' + cantidad;
                         mensaje += '\n';
